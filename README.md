@@ -75,10 +75,10 @@ Sample `terraform.tfvars`:
 ```
 default_keypair_public_key = "ssh-rsa AAA...zzz"
 control_cidr = "123.45.67.89/32"
-default_keypair_name = "lorenzo-glf"
-vpc_name = "Lorenzo ETCD"
-elb_name = "lorenzo-etcd"
-owner = "Lorenzo"
+default_keypair_name = "apotitech-glf"
+vpc_name = "apotitech ETCD"
+elb_name = "apotitech-etcd"
+owner = "apotitech"
 ```
 
 
@@ -107,7 +107,7 @@ Apply complete! Resources: 12 added, 2 changed, 0 destroyed.
   ...
 Outputs:
 
-  kubernetes_api_dns_name = lorenzo-kubernetes-api-elb-1566716572.eu-west-1.elb.amazonaws.com
+  kubernetes_api_dns_name = apotitech-kubernetes-api-elb-1566716572.eu-west-1.elb.amazonaws.com
   kubernetes_workers_public_ip = 54.171.180.238,54.229.249.240,54.229.251.124
 ```
 
